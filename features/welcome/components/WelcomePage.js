@@ -33,7 +33,7 @@ class WelcomePage extends Component {
  */
 const mapStateToProps = state => {
     return {
-        room: state.client.room
+        room: state['features/welcome'].room
     };
 }
 
